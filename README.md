@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paid Page – Tasnim Al Rafid</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    body, html {
+      margin: 0; padding: 0; height: 100%;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px 30px;
+      border-radius: 20px;
+      width: 320px;
+      max-width: 90%;
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+      text-align: center;
+      animation: fadeIn 1.5s ease forwards;
+    }
+    h1 { margin-bottom: 15px; font-weight: 700; font-size: 2rem; }
+    p { font-size: 1rem; line-height: 1.5; margin-bottom: 30px; }
+    button {
+      background: #fff; color: #764ba2; border: none;
+      padding: 12px 30px; border-radius: 50px;
+      font-weight: 700; cursor: pointer;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 10px rgba(118, 75, 162, 0.3);
+    }
+    button:hover { background: #e0d7f7; }
+    footer {
+      margin-top: 40px;
+      font-weight: 600;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Paid Page</h1>
+    <p>Thank you for visiting. Click the button below to get started!</p>
+    <button onclick="alert('Starting your journey! 🚀')">Start Now</button>
+  </div>
+
+  <footer>
+    Tasnim Al Rafid
+  </footer>
+
+</body>
+</html>
